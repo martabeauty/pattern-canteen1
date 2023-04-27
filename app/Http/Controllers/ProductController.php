@@ -437,6 +437,15 @@ class ProductController extends Controller
                         $payments->mode = "cash";
                         $payments->amount = ($paymentSum);
                         $payments->save();
+
+
+                            $paymode = new paymode;
+                            $paymode->date = $request->date;
+                            $paymode->cash = 0;
+                            $paymode->upi = 0;
+                            $paymode->pending = 0;
+                            $paymode->save();
+
                         }
 
                     }
@@ -454,6 +463,15 @@ class ProductController extends Controller
                                     $payments->mode = "cash";
                                     $payments->amount = ($paymentSum);
                                     $payments->save();
+
+
+                            $paymode = new paymode;
+                            $paymode->date = $request->date;
+                            $paymode->cash = 0;
+                            $paymode->upi = 0;
+                            $paymode->pending = 0;
+                            $paymode->save();
+
                                 }
                         }
 
@@ -536,6 +554,15 @@ class ProductController extends Controller
                 $payments->mode = "cash";
                 $payments->amount = ($paymentSum);
                 $payments->save();
+
+
+                        $paymode = new paymode;
+                        $paymode->date = $request->date;
+                        $paymode->cash = 0;
+                        $paymode->upi = 0;
+                        $paymode->pending = 0;
+                        $paymode->save();
+
                 }
 
 
@@ -644,6 +671,15 @@ class ProductController extends Controller
                         $payments->mode = "cash";
                         $payments->amount = ($paymentSum);
                         $payments->save();
+
+
+                            $paymode = new paymode;
+                            $paymode->date = $request->date;
+                            $paymode->cash = 0;
+                            $paymode->upi = 0;
+                            $paymode->pending = 0;
+                            $paymode->save();
+
                         }
 
                     }
@@ -661,6 +697,14 @@ class ProductController extends Controller
                                     $payments->mode = "cash";
                                     $payments->amount = ($paymentSum);
                                     $payments->save();
+
+
+                            $paymode = new paymode;
+                            $paymode->date = $request->date;
+                            $paymode->cash = 0;
+                            $paymode->upi = 0;
+                            $paymode->pending = 0;
+                            $paymode->save();
                                 }
                         }
 
@@ -704,6 +748,15 @@ class ProductController extends Controller
                         $payments->mode = "cash";
                         $payments->amount = ($paymentSum);
                         $payments->save();
+
+
+                            $paymode = new paymode;
+                            $paymode->date = $request->date;
+                            $paymode->cash = 0;
+                            $paymode->upi = 0;
+                            $paymode->pending = 0;
+                            $paymode->save();
+
                         }
 
                     }
@@ -721,6 +774,14 @@ class ProductController extends Controller
                                     $payments->mode = "cash";
                                     $payments->amount = ($paymentSum);
                                     $payments->save();
+
+
+                            $paymode = new paymode;
+                            $paymode->date = $request->date;
+                            $paymode->cash = 0;
+                            $paymode->upi = 0;
+                            $paymode->pending = 0;
+                            $paymode->save();
                                 }
                         }
 
