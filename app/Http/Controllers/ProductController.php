@@ -1039,7 +1039,7 @@ class ProductController extends Controller
                 $pending=$request->amount-$request->upi;
                 $upi=$request->upi;
             }
-
+///
             if(($request->cash>0)&&($request->upi<=0)&&(($request->pending<=0)||($request->pending=="")))
             {
                 $cash=$request->cash;
